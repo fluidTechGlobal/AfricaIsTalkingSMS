@@ -10,6 +10,11 @@
             "homepage": "http://fluidtechglobal.com"
         }
     ],
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    },
     "require": {
         "php": ">=5.4.0"
     },
