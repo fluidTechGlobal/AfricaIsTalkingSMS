@@ -7,17 +7,28 @@
 [![License](https://poser.pugx.org/laravel/framework/license.svg)](https://packagist.org/packages/laravel/framework)
 
 Using Laravel Framework and Africa Is Talking Api, SMS can now be sent in Africa with ease. Follow the steps below and use the Package
-## Official Documentation
+## Installation
 
-Documentation for the framework can be found on the [Laravel website](http://laravel.com/docs).
+Run composer require ftg/sms:dev-master at the root of your Laravel Project.
 
-## Contributing
+## Africa is Talking Account Creation
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](http://laravel.com/docs/contributions).
+You will need an account in Africa is Talking. By default a new account has 10 free sms for test purposes. Visit [Africa is Talking](https://account.africastalking.com/login) and create an account or login if you have one. 
+#### Api Creation
+Create an Api Key that will be used to send the messages
+ 
+## Configuration
+Add the following line to your providers in the App/Config/app.php file;
 
-## Security Vulnerabilities
+Ftg\Sms\Facades\Sms::class,
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell at taylor@laravel.com. All security vulnerabilities will be promptly addressed.
+Add the following line to your aliases in the App/Config/app.php file;
+
+'SMS' => Ftg\Sms\Facades\Sms::class,
+
+Add the following lines to your .env file for the Package to pick your africa is talking username and api key.
+
+
 
 ## License
 
