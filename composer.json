@@ -9,6 +9,6 @@
             "email": "dvsituma@gmail.com"
         }
     ],
-    "minimum-stability": "0.1",
+    "minimum-stability": "stable",
     "require": {}
 }
