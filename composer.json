@@ -1,0 +1,14 @@
+{
+    "name": "FTG/Sms",
+    "description": "Africa is talking sms api for East and Central Africa",
+    "type": "laravel",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "David",
+            "email": "dvsituma@gmail.com"
+        }
+    ],
+    "minimum-stability": "0.1",
+    "require": {}
+}
