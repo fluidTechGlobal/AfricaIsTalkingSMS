@@ -1,5 +1,5 @@
 {
-    "name": "FTG/Sms",
+    "name": "ftg/sms",
     "description": "Africa is talking sms api for East and Central Africa",
     "type": "laravel",
     "license": "MIT",
