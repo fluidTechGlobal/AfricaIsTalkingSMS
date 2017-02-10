@@ -14,11 +14,6 @@
         "branch-alias": {
             "dev-master": "0.2-dev"
         }
-    },
-    "require": {
-        "php": ">=5.4.0"
-    },
-    "minimum-stability": "stable",
-    "version" : "0.1"
+    }
 
 }
