@@ -10,8 +10,9 @@
             "homepage": "http://fluidtechglobal.com"
         }
     ],
-    "minimum-stability": "stable",
     "require": {
         "php": ">=5.4.0"
-    }
+    },
+    "minimum-stability": "stable"
+
 }
