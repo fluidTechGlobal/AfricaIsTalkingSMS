@@ -43,6 +43,7 @@ In the function send the message as follows;
             $mobile = "254...";
             $message = "Your Message goes here";
             Sms::send_sms($mobile,$message);
+            return "message sent";
     }
 
 ## License
