@@ -15,22 +15,22 @@ Create an Api Key that will be used to send the messages
 ## Configuration
 Add the following line to your providers in the App/Config/app.php file;
 
-Ftg\Sms\Facades\Sms::class,
+     Ftg\Sms\SmsServiceProvider::class,
 
 Add the following line to your aliases in the App/Config/app.php file;
 
-'SMS' => Ftg\Sms\Facades\Sms::class,
+    'SMS' => Ftg\Sms\Facades\Sms::class,
 
 Add the following lines to your .env file for the Package to pick your africa is talking username and api key. Complete them with the relevant credentials
 
-Africa_Is_Talking_Username=
-
-Africa_Is_Talking_API_KEY=
+    Africa_Is_Talking_Username=
+    Africa_Is_Talking_API_KEY=
+    Africa_Is_Talking_ID=
 
 ##Usage
 In your controller include the following line at the top;
 
-use Ftg\Sms\Facades\Sms;
+    use Ftg\Sms\Facades\Sms;
 
 In the function send the message as follows;
 

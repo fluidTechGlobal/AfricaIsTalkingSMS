@@ -24,10 +24,12 @@ class Sms{
         $gateway    = new AfricasTalkingGateway($username, $apikey);
         // Any gateway error will be captured by our custom Exception class below,
         // so wrap the call in a try-catch block
+        // Specify your AfricasTalking shortCode or sender id
+        $from = env('Africa_Is_Talking_ID', 'production');
         try
         {
             // Thats it, hit send and we'll take care of the rest.
-            $results = $gateway->sendMessage($recipients, $message);
+            $results = $gateway->sendMessage($recipients, $message,$from);
 
 //            foreach($results as $result) {
 //                 status is either "Success" or "error message"
